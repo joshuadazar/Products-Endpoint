@@ -2,16 +2,13 @@ const express = require('express');
 const { resolve } = require('path');
 const cors = require ('cors');
 
-const corsOptions = {
-  origin: 'http://localhost:3000', // Reemplaza con tu origen real
-};
-
-app.use(cors(corsOptions));
-
 const app = express();
 const port = 3010;
 
 app.use(express.static('static'));
+
+
+app.use(cors());
 
 const data = [
   {
