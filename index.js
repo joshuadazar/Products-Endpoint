@@ -30,7 +30,7 @@ const data = [
     price: 3000,
   },
   {
-    id: 1,
+    id: 4,
     name: 'product 4',
     description: 'description producto 4 miau',
     price: 31000,
